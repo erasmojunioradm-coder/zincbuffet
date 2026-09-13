@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "brand": "ZINC",
+    "subtitle": "BUFFET & EVENTOS",
+    "city": "Cubatão — SP",
+    "whatsapp": "5513996399635",
+    "hero": {
+      "image": "",
+      "position": "center",
+      "zoom": 1,
+      "published": true
+    },
+    "theme": {
+      "primary": "#C9A45A",
+      "primaryHover": "#F2D899",
+      "bg": "#050706",
+      "bg2": "#09110D",
+      "card": "#0D1713",
+      "heading": "#FFFDF7",
+      "text": "#D8D2C7",
+      "muted": "#9AA29C",
+      "line": "rgba(255,255,255,.10)"
+    },
+    "font": {
+      "heading": "Cormorant Garamond",
+      "body": "Manrope"
+    },
+    "publishedTheme": {},
+    "publishedFont": {}
+  },
+  "events": [
+    {
+      "id": "casamentos",
+      "name": "Casamentos",
+      "description": "Celebrações elegantes para começar uma nova história.",
+      "cover": "",
+      "published": true,
+      "albums": []
+    },
+    {
+      "id": "15-anos",
+      "name": "15 Anos",
+      "description": "Uma noite para guardar na memória.",
+      "cover": "",
+      "published": true,
+      "albums": []
+    },
+    {
+      "id": "aniversarios",
+      "name": "Aniversários",
+      "description": "Cada ano merece ser celebrado.",
+      "cover": "",
+      "published": true,
+      "albums": []
+    },
+    {
+      "id": "eventos",
+      "name": "Eventos",
+      "description": "Eventos especiais, confraternizações e encontros corporativos.",
+      "cover": "",
+      "published": true,
+      "albums": []
+    }
+  ],
+  "decorations": [],
+  "testimonials": [],
+  "quotes": []
+}
