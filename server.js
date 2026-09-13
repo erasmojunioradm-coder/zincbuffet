@@ -40,4 +40,6 @@ app.get('/api/health',(req,res)=>res.json({ok:true,storage:'disk',content:true,t
 app.get('/admin',(req,res)=>res.sendFile(path.join(ROOT,'public','admin.html')))
 app.use((req,res,next)=>{ if(req.method==='GET') return res.sendFile(path.join(ROOT,'public','index.html')); next(); })
 app.use((err,req,res,next)=>res.status(500).json({ok:false,error:err.message||'Erro interno'}))
-app.listen(PORT,()=>console.log('ZINC rodando em http://localhost:'+PORT))
+app.listen(PORT, '0.0.0.0', () => {
+  console.log('ZINC rodando na porta ' + PORT);
+});
